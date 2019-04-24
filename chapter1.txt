@@ -1,0 +1,18 @@
+It was the best of times, it was the worst of times. 
+
+
+How to use Git from Terminal ——
+
+1. create respective folder and file
+2. cd into folder and type: git init —to initialize git
+3. ls -a will show you the files inside of the folder.  .git files are hidden so you need
+this to see the .git file
+
+4. Check the staging area of the git file by typing: git status
+	-this shows untracked files in red…(files not in the staging area)
+
+5. Type: git add filename.file   —to add the file to the staging area 
+	-if you check git status again you will see the file is now green ready to be committed
+
+6. Commit by typing: git commit -m “write a message here after -m in present tense that tells you what changes you have made in this commit”
+	- -m is code for adding the commit message…write it with quotes after -m
