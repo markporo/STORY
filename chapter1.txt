@@ -13,6 +13,12 @@ this to see the .git file
 
 5. Type: git add filename.file   —to add the file to the staging area 
 	-if you check git status again you will see the file is now green ready to be committed
+	-To add multiple files into git at a time type: git add .    — the . points back to everything inside the folder that you are cd’d into. 
 
 6. Commit by typing: git commit -m “write a message here after -m in present tense that tells you what changes you have made in this commit”
 	- -m is code for adding the commit message…write it with quotes after -m
+
+7.  use git log to see commit logs —who, when, hash identifier code, and the commit message description.
+
+ 
+
