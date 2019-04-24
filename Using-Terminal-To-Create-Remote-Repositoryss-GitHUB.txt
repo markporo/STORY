@@ -1,0 +1,15 @@
+1.  Create repository in GitHub website
+
+
+TO ADD existing local repository to GITHUB REMOTE REPOSITORY:
+
+2.  copy code address from GitHUB
+
+3.  In terminal type: git remote add origin https://github.com/markporo/STORY.git
+	-origin is the suggested file name and the link is pasted in after origin as shown here. 
+
+	- now we can push the local to the remote
+
+4.  TYPE: git push -u origin master    —inside of the folder that contains your commits
+
+5. 
