@@ -1,7 +1,7 @@
 It was the best of times, it was the worst of times. 
 
 
-How to use Git from Terminal ——
+How to use Git from Terminal —— this is using local version control with git (local version control repositories for backing up your work)
 
 1. create respective folder and file
 2. cd into folder and type: git init —to initialize git
@@ -13,12 +13,17 @@ this to see the .git file
 
 5. Type: git add filename.file   —to add the file to the staging area 
 	-if you check git status again you will see the file is now green ready to be committed
-	-To add multiple files into git at a time type: git add .    — the . points back to everything inside the folder that you are cd’d into. 
+	-To add multiple files into the git staging area at a time type: git add .    — the . points back to everything inside the folder that you are cd’d into. 
 
 6. Commit by typing: git commit -m “write a message here after -m in present tense that tells you what changes you have made in this commit”
 	- -m is code for adding the commit message…write it with quotes after -m
 
 7.  use git log to see commit logs —who, when, hash identifier code, and the commit message description.
 
- 
+8.  Use: git diff filename.txt   —to see the difference between a modified file and the previous commit. 
+	-previous version will be shown in red and the new will be shown in green. 
+
+9.  To revert back to a previous git version….type: git checkout filename.fileextension
+
+
 
