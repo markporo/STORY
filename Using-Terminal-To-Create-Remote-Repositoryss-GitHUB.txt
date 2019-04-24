@@ -12,4 +12,5 @@ TO ADD existing local repository to GITHUB REMOTE REPOSITORY:
 
 4.  TYPE: git push -u origin master    —inside of the folder that contains your commits
 
-5. 
+5. You can now view the repository and files added inside of GITHUB….
+	-use the insights tab/ Network tab to view graph of the branches of each saved commitgit
